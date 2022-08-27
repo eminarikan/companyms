@@ -24,4 +24,19 @@ public class OfficeServiceImpl implements OfficeService{
     public Office findById(Long id) {
         return officeRepository.findById(id).get();
     }
+
+    @Override
+    public void save(Office office) {
+        officeRepository.save(office);
+    }
+
+    @Override
+    public void update(Office office) {
+        officeRepository.save(office);
+    }
+
+    @Override
+    public void delete(Office office) {
+        officeRepository.delete(office);
+    }
 }

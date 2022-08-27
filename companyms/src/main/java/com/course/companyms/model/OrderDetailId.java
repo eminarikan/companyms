@@ -29,5 +29,13 @@ public class OrderDetailId implements Serializable{
         this.product = product;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
     
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

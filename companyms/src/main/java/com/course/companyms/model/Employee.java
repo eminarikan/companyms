@@ -19,7 +19,7 @@ public class Employee {
     @Column(nullable = false)
     private String firstName;
     @Column(nullable = false)
-    private String extention;
+    private String extension;
     @Column(nullable = false)
     private String email;
     
@@ -58,12 +58,12 @@ public class Employee {
         this.firstName = firstName;
     }
 
-    public String getExtention() {
-        return extention;
+    public String getExtension() {
+        return extension;
     }
 
-    public void setExtention(String extention) {
-        this.extention = extention;
+    public void setExtension(String extension) {
+        this.extension = extension;
     }
 
     public String getEmail() {

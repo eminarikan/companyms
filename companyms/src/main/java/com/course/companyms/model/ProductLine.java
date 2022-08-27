@@ -9,17 +9,17 @@ import javax.persistence.Table;
 public class ProductLine {
     
     @Id
-    private String checkNumber;
+    private String productLine;
     
     private String textDescription;
     private String htmlDescription;
     private String image;
     
-    public String getCheckNumber() {
-        return checkNumber;
+    public String getProductLine() {
+        return productLine;
     }
-    public void setCheckNumber(String checkNumber) {
-        this.checkNumber = checkNumber;
+    public void setProductLine(String productLine) {
+        this.productLine = productLine;
     }
     public String getTextDescription() {
         return textDescription;
